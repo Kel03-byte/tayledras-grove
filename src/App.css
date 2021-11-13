@@ -1,0 +1,63 @@
+header {
+  margin-bottom: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+
+footer {
+  margin: 20px;
+  font-size: 12px;
+  font-style: italic;
+}
+
+#page {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.NavBar {
+  text-align: center;
+  display: none;
+}
+
+#title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+#info {
+  width: 300px;
+  text-align: left;
+  margin: auto;
+}
+
+#contact-list {
+  margin: auto;
+  width: 350px;
+  text-align: left;
+}
+
+#icon {
+  color: black;
+}
+
+@media screen and (min-width: 700px) {
+  .NavBar {
+    display: flex;
+    justify-content: center;
+  }
+}
