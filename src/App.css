@@ -1,4 +1,9 @@
+body {
+  background-color: rgb(236, 234, 108);
+}
+
 header {
+  background-color: white;
   margin-bottom: 30px;
   font-size: 40px;
   text-align: center;
@@ -11,11 +16,15 @@ footer {
 }
 
 #page {
+  background-color: white;
+  padding: 10px;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 10px;
   margin-right: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
 ul {
@@ -23,16 +32,25 @@ ul {
 }
 
 a {
+  font-weight: bold;
   text-decoration: none;
   padding: 10px;
 }
 
+a:hover {
+  color: white;
+}
+
 .NavBar {
+  margin-left: 5%;
+  margin-right: 5%;
+  border-bottom: 1px solid black;
   text-align: center;
   display: none;
 }
 
 #title {
+  background-color: white;
   text-align: center;
   font-weight: bold;
   font-size: 25px;
@@ -48,11 +66,16 @@ a {
 #contact-list {
   margin: auto;
   width: 350px;
-  text-align: left;
+  text-align: center;
 }
 
 #icon {
+  background-color: white;
   color: black;
+}
+
+#icon:hover {
+  color: gold;
 }
 
 @media screen and (min-width: 700px) {
