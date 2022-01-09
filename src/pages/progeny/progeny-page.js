@@ -44,7 +44,7 @@ function Progeny() {
                         <p><b><i>Dam:</i></b> </p>
                     </div>
                 </div>
-                <div>
+                {/* <div>
                     <p>- Tayldras Dallen Trust -</p>
                     <div id='info'>
                         <p><b><i>Stable Name:</i></b> Dallen</p>
@@ -55,7 +55,7 @@ function Progeny() {
                         <p><b><i>Sire:</i></b> </p>
                         <p><b><i>Dam:</i></b> Hrrucane Trust</p>
                     </div>
-                </div>
+                </div> */}
                 <div>
                     <p>- Tayldras Elspeth -</p>
                     <div id='info'>
